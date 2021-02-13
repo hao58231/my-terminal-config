@@ -1,0 +1,13 @@
+mkcd hh
+mkcd sss
+extracthere jjj.tar
+compress kkk.tar
+compress kk.tar
+extracthere kk.tar
+extracthere 
+shell ./kk.tar
+rename __init__.py
+compress kkkk
+compress kkk.rar
+compress ml.tar.gz
+delete
