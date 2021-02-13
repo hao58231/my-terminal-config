@@ -21,7 +21,7 @@ tar xfz linux-amd64-1.1.0.tar.gz
 sudo ln -s $HOME/linux-amd64-1.1.0/ccat /usr/local/bin
 ```
 
-### 安装[the_silver_searcher(ag命令)](https://github.com/ggreer/the_silver_searcher)
+### 安装[the_silver_searcher](https://github.com/ggreer/the_silver_searcher)(ag命令)
 ```
 sudo apt install the_silver_searcher
 ```
