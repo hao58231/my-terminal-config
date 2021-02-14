@@ -1,6 +1,6 @@
 # my-terminal-config
 ubuntu18.04上zsh，ranger和fzf的配置备份。
-## 安装以下主程序,再覆盖配置文件
+## 安装以下主程序
 - ### zsh主题-[jovial](https://github.com/zthxxx/jovial)
 ```
 curl -sSL -H 'Cache-Control: no-cache' git.io/jovial | sudo bash -s $USER
@@ -34,6 +34,7 @@ sudo apt install ranger
 ```
 ranger --copy-config=all
 ```
+
 ## 安装ranger辅助插件(可选)
 ```
 sudo apt-get install caca-utils # img2txt 图片
@@ -46,4 +47,11 @@ sudo apt-get install catdoc     # doc预览
 sudo apt-get install docx2txt   # docx预览
 sudo apt-get install xlsx2csv   # xlsx预览
 ```
-## 拷贝
+
+## 下载release,覆盖配置文件
+```
+wget https://github.com/hao58231/my-terminal-config/archive/release.zip
+unzip release.zip
+cp -r my-terminal-config-release/* $HOME
+```
+
