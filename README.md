@@ -15,7 +15,7 @@ ubuntu18.04上终端美化的配置备份。
 
 ### 使用
 
-#### 安装以下程序
+#### 安装以下命令
 
 ##### zsh主题-[jovial](https://github.com/zthxxx/jovial)
 
