@@ -92,6 +92,7 @@ cp -r my-terminal-config-release/* $HOME
 #### 安装vim插件
 
 打开vim，命令模式下输入:PlugInstall安装fzf、airline等插件
+
 ------
 
 ### 预览
