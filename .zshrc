@@ -120,5 +120,7 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
 alias q="exit"
 alias gh="cd ~"
 alias ra="ranger"
-
+alias ll="lsd -l"
+alias ls="lsd"
+alias la="lsd -la"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
