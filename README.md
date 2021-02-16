@@ -1,5 +1,4 @@
-> 本文地址:[https://github.com/hao58231/my-terminal-config](https://github.com/hao58231/my-terminal-config "https://github.com/hao58231/my-terminal-config")
-
+# my-terminal-config
 ubuntu18.04上终端美化的配置备份。
 
 ------
