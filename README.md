@@ -68,7 +68,7 @@ ranger --copy-config=all
 
 #### 安装ranger辅助插件(可选)
 
-```
+```shell
 sudo apt-get install caca-utils # img2txt 图片
 sudo apt-get install highlight  # 代码高亮
 sudo apt-get install atool　    # 存档预览
@@ -83,10 +83,9 @@ sudo apt-get install xlsx2csv   # xlsx预览
 
 #### 覆盖配置文件
 
-```
-wget https://github.com/hao58231/my-terminal-config/archive/release.zip
-unzip release.zip
-cp -r my-terminal-config-release/* $HOME
+```shell
+unzip my-terminal-config.zip
+cp -r my-terminal-config/* $HOME
 ```
 
 #### 安装vim插件
