@@ -23,6 +23,11 @@ colorscheme hybrid
 set guifont=Consolas:h12
 set guifontwide=Microsoft/YaHei:h12
 
+" 快捷键映射                                                                                              
+map <C-f> :Lines<CR>                                                                                      
+map <C-o> :Files<CR>                                                                                      
+map <C-e> :Buffers<CR> 
+
 " 插件列表
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify'
