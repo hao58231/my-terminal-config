@@ -1,19 +1,16 @@
-# my-terminal-config
 ubuntu18.04上终端美化的配置备份。
 
 ------
 
-### 背景
+## 背景
 
-前些天将服务器上的QQ机器人框架从[Nonebot](https://github.com/nonebot/nonebot)迁移到[Nonebot2](https://github.com/nonebot/nonebot2)，由于该框架最低支持 **Python 3.7+**，于是安装了Python3.8，后来又手贱将系统自带Python3.6移除，然后重启就无法进入系统了.....
+前些天将服务器上的QQ机器人框架从[Nonebot](https://github.com/nonebot/nonebot)迁移到[Nonebot2](https://github.com/nonebot/nonebot2)，由于该框架最低支持 `Python 3.7+`，于是安装了`Python3.8`，后来又手贱将系统自带`Python3.6`移除，然后重启就无法进入系统了.....
 
 网站，数据库，机器人插件平时都有做备份，关键这终端配置文件日常改动比较频繁就没做备份（强迫症受不了黑乎乎、朴实无华的终端）......
 
 重装系统后倒腾了半天时间，装扮了一下终端，在此做备份。
 
-------
-
-### 使用
+## 使用
 
 #### 安装以下命令
 
@@ -92,22 +89,21 @@ cp -r my-terminal-config/* $HOME
 
 打开vim，命令模式下输入:PlugInstall安装fzf、airline等插件
 
-------
-
-### 预览
+## 预览
 
 fzf界面预览：
 
-![](https://gitee.com/hao58231/blog-image/raw/master/20210216105028.png)
+![](https://gitee.com/hao58231/blog-image/raw/master/picgo/20210216105028.png)
 
 ranger界面预览：
 
-![image-20210216135858761](https://gitee.com/hao58231/blog-image/raw/master/image-20210216135858761.png)
+![image-20210216135858761](https://gitee.com/hao58231/blog-image/raw/master/picgo/image-20210216135858761.png)
 
 vim界面预览：
 
-![image-20210216140302425](https://gitee.com/hao58231/blog-image/raw/master/image-20210216140302425.png)
+![image-20210216140302425](https://gitee.com/hao58231/blog-image/raw/master/picgo/image-20210216140302425.png)
 
 shell界面预览：
 
-![](https://gitee.com/hao58231/blog-image/raw/master/20210216145337.jpg)
+![](https://gitee.com/hao58231/blog-image/raw/master/picgo/20210216145337.jpg)
+
