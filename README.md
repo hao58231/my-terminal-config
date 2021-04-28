@@ -16,7 +16,7 @@ ubuntu18.04上终端美化的配置备份。
 
 ##### zsh
 
-```zsh
+```shell
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  # 安装oh-my-zsh
 git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k  # powerlevel10k主题
