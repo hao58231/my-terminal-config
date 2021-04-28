@@ -108,5 +108,5 @@ shell界面预览：
 
 ![image-20210428170408835](https://gitee.com/hao58231/blog-image/raw/master//picgo/image-20210428170408835.png)
 
-**TIP：**以上效果来自Windows Terminal，字体为`Meslo Nerd Font`(ttf目录)
+**TIP**:以上效果来自Windows Terminal，字体为`Meslo Nerd Font`(ttf目录)
 
