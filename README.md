@@ -14,13 +14,13 @@ ubuntu18.04上终端美化的配置备份。
 
 #### 安装以下命令
 
-##### zsh主题-[jovial](https://github.com/zthxxx/jovial)
+##### zsh
 
 ```zsh
-curl -sSL -H 'Cache-Control: no-cache' git.io/jovial | sudo bash -s $USER
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  # 安装oh-my-zsh
+git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k  # powerlevel10k主题
 ```
-
-会自动安装zsh，oh-my-zsh，jovial及oh-my-zsh插件
 
 ##### [fuzzy finder](https://github.com/junegunn/fzf)
 
@@ -83,6 +83,7 @@ sudo apt-get install xlsx2csv   # xlsx预览
 ```shell
 unzip my-terminal-config.zip
 cp -r my-terminal-config/* $HOME
+source ~/.zshrc  # 使配置立即生效
 ```
 
 #### 安装vim插件
@@ -93,17 +94,19 @@ cp -r my-terminal-config/* $HOME
 
 fzf界面预览：
 
-![](https://gitee.com/hao58231/blog-image/raw/master/picgo/20210216105028.png)
+![image-20210428170700475](https://gitee.com/hao58231/blog-image/raw/master//picgo/image-20210428170700475.png)
 
 ranger界面预览：
 
-![image-20210216135858761](https://gitee.com/hao58231/blog-image/raw/master/picgo/image-20210216135858761.png)
+![image-20210428165836404](https://gitee.com/hao58231/blog-image/raw/master//picgo/image-20210428165836404.png)
 
 vim界面预览：
 
-![image-20210216140302425](https://gitee.com/hao58231/blog-image/raw/master/picgo/image-20210216140302425.png)
+![image-20210428165951472](https://gitee.com/hao58231/blog-image/raw/master//picgo/image-20210428165951472.png)
 
 shell界面预览：
 
-![](https://gitee.com/hao58231/blog-image/raw/master/picgo/20210216145337.jpg)
+![image-20210428170408835](https://gitee.com/hao58231/blog-image/raw/master//picgo/image-20210428170408835.png)
+
+**TIP：**以上效果来自Windows Terminal，字体为`Meslo Nerd Font`(ttf目录)
 
